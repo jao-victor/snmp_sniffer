@@ -69,7 +69,7 @@ async def main():
 
     print("Iniciando verificação SNMP...\n")
 
-    # 🔥 Limita concorrência para não abrir 1000 sockets ao mesmo tempo
+    #  Limita concorrência para não abrir muitos sockets ao mesmo tempo
     semaphore = asyncio.Semaphore(100)
 
     tasks = [
