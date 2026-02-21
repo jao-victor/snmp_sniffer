@@ -13,8 +13,8 @@ A ferramenta combina a velocidade de um **Ping Sweep** assíncrono com a bibliot
 
 ## 📋 Pré-requisitos
 
-- Python 3.7 ou superior.
-- **Permissões de Administrador:** O script utiliza a biblioteca `icmplib`, que requer privilégios elevados para enviar pacotes ICMP (RAW Sockets).
+- Testado e Homologado em Python 3.12.0
+- **Possa ser necessário Permissões de Administrador:** O script utiliza a biblioteca `icmplib`, que requer privilégios elevados para enviar pacotes ICMP (RAW Sockets).
   - No Windows: Execute o Terminal/PowerShell como Administrador.
   - No Linux: Utilize `sudo`.
 
